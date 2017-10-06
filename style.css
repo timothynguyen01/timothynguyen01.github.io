@@ -1,0 +1,264 @@
+@font-face{
+    font-family: circ;
+    src: url(fonts/circ.otf);
+}
+#body1{
+    background-color: #6A7B76;
+    background-image: url(images/city2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+#body2{
+    background-color: #6A7B76;
+    background-image: url(images/vball.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body{
+    background-color: white;
+}
+
+h1{
+    font-family: "circ";
+    text-align: center;
+    font-size: 100px;
+}
+#home{
+    color:#8C8384;
+    line-height: 350.7px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-70%);
+    width: 100%;
+}
+#nav{
+    font-family: "circ";
+    list-style-type: none;
+    margin: -8px;
+    padding:0;
+    overflow: hidden;
+    background-color: #3A4E48;
+    
+}
+#nav li {
+    float:right;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 18px;
+}
+ #nav li a:hover {
+    background-color: #BEB0A7;
+    color:white;
+}
+#nav li a:active{
+    background-color: white;
+    color:black;
+}
+
+/* unvisited link */
+#nav:link {
+    color: white;
+}
+
+/* visited link */
+#nav:visited {
+    color: white;
+}
+
+/* mouse over link */
+#nav:hover {
+    color: white;
+}
+/*
+#nav li {
+    float:right;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+ #nav li a:hover {
+    background-color: #BEB0A7;
+    color:white;
+}
+#nav li a:active{
+    background-color: white;
+    color:black;
+}
+
+/* unvisited link 
+#nav:link {
+    color: white;
+}
+
+/* visited link 
+#nav:visited {
+    color: white;
+}
+
+/* mouse over link 
+#nav:hover {
+    color: white;
+}
+*/
+
+#link1:active {
+    color: white;
+}
+/* unvisited link */
+#link1:link {
+    color: white;
+}
+
+/* visited link */
+#link1:visited {
+    color: white;
+}
+
+/* mouse over link */
+#link1:hover {
+    color: white;
+}
+/* selected link */
+#nav:active {
+    color: white;
+}
+
+#div {
+    margin:50px;
+    padding:75px;
+    text-align: center
+}
+.dropbtn {
+    background-color: #3A4E48;
+    font-family: "circ";
+    color: white;
+    padding: 18px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+  .dropdown {
+    position: fixed;
+    display: inline-block;
+}
+
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3A4E48;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-family: "circ";
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+ .dropdown-content a:hover {background-color:#BEB0A7;}
+
+ .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+ .dropdown:hover .dropbtn {
+    background-color:  #BEB0A7;
+}
+#test p {
+    opacity: 0;
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
+}
+
+#panel1{
+    width: 50%;
+    display: none;
+}
+
+#pbody1{
+    font-family: "circ";
+    font-size: 20px;
+    color: white;
+    background-color: #5A716A;
+    
+}
+#name1{
+    font-family: "circ";
+    color: white;
+    font-size: 50px;
+}
+#pheading1{
+font-family: "circ";
+font-size: 28px;
+  color: white;
+  background-color: #5A716A;
+}
+#nav{
+    font-size: 100%;
+}
+
+#schedule, #songs{
+   float: left;
+   width: 50%;
+}
+
+#songs{
+    border-left: 1px solid white;
+    padding-left: 30px;
+    height: 250px;
+}
+#fav{
+    font-size: 30px;
+}
+#body3{
+    background-color:#EFF1ED ;/*#A8CCC9#C7CCDB*/
+}
+#panel2{
+    width: 40%;
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 2%;
+   
+}
+#pbody2{
+    font-family: "circ";
+    font-size: 20px;
+    color: white;
+    background-color: #5A716A;
+    height: 50%;
+    
+}
+#pheading2{
+  font-family: "circ";
+  font-size: 28px;
+  color: white;
+  background-color: #5A716A;
+}
