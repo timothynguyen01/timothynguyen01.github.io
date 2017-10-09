@@ -80,42 +80,6 @@ h1{
 #nav:hover {
     color: white;
 }
-/*
-#nav li {
-    float:right;
-}
-
-#nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px 30px;
-    text-decoration: none;
-}
- #nav li a:hover {
-    background-color: #BEB0A7;
-    color:white;
-}
-#nav li a:active{
-    background-color: white;
-    color:black;
-}
-
-/* unvisited link 
-#nav:link {
-    color: white;
-}
-
-/* visited link 
-#nav:visited {
-    color: white;
-}
-
-/* mouse over link 
-#nav:hover {
-    color: white;
-}
-*/
 
 #link1:active {
     color: white;
@@ -239,12 +203,14 @@ font-size: 28px;
 }
 #body3{
     background-color:#EFF1ED ;/*#A8CCC9#C7CCDB*/
+    background-image: url(images/ab.png);
+    background-repeat: no-repeat;
 }
 #panel2{
     width: 40%;
     display: none;
     position: absolute;
-    top: 25%;
+    top: 15%;
     left: 2%;
    
 }
@@ -262,3 +228,38 @@ font-size: 28px;
   color: white;
   background-color: #5A716A;
 }
+#panel3{
+    width: 40%;
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 2%;
+   
+}
+#pbody3{
+    font-family: "circ";
+    font-size: 20px;
+    color: white;
+    background-color: #5A716A;
+    height: 50%;
+    
+}
+#pheading3{
+  font-family: "circ";
+  font-size: 28px;
+  color: white;
+  background-color: #5A716A;
+}
+#ports{
+    font-family: "circ";
+    text-align: center;
+    font-size: 90px;
+}
+#bod1{
+    background-image: url(images/1.jpg);
+    background-position: center;
+    background-repeat: repeat  ;
+    background-size: 100%;
+}
+
+
