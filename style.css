@@ -261,5 +261,25 @@ font-size: 28px;
     background-repeat: repeat  ;
     background-size: 100%;
 }
-
-
+#cred{
+    font-family: sans-serif;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+}
+#cred2{
+    font-family: sans-serif;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+}
+#cred3{
+    font-family: sans-serif;
+    font-size: 6px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+}
