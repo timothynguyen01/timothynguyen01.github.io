@@ -24,7 +24,7 @@ body{
 }
 
 h1{
-    font-family: "circ";
+    font-family:"circ";
     text-align: center;
     font-size: 100px;
 }
@@ -281,5 +281,4 @@ font-size: 28px;
     position: absolute;
     bottom: 0;
     right: 0;
-}
 }
